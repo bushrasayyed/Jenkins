@@ -3,7 +3,7 @@ const supertest = require('supertest');
 
 // Create a superagent instance from the express app
 const request = supertest(app);
-
+// Testing the files
 describe('API Endpoint Testing', () => {
   it('should respond with a greeting message', async () => {
     // Make a GET request to the /api/greet endpoint
