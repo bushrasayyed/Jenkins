@@ -14,6 +14,7 @@ pipeline{
                 sh 'npm install'
             }
         }
+        //If you want to test enable this 
         // stage("Testing")
         // {
         //     steps{
